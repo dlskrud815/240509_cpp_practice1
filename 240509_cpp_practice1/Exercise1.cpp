@@ -163,7 +163,7 @@ int ConfirmPW(string input)
 {
 	if (input.size() < 6 || input.size() > 17)
 	{
-		cout << endl << "- 비밀번호는 6~17 자리입니다:)" << endl;
+		//cout << endl << "- 비밀번호는 6~17 자리입니다:)" << endl;
 		return 1;
 	}
 	else if (checkPwCombi(input) == false)
