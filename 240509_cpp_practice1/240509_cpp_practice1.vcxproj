@@ -133,7 +133,10 @@
     <ClCompile Include="240509_cpp_practice1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Exercise1.cpp" />
+    <ClCompile Include="Exercise1.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Exercise2.cpp" />
     <ClCompile Include="Login_Func.cpp" />
   </ItemGroup>
   <ItemGroup>
