@@ -133,13 +133,20 @@
     <ClCompile Include="240509_cpp_practice1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Banking.cpp" />
+    <ClCompile Include="Customer.cpp" />
     <ClCompile Include="Exercise1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="Exercise2.cpp" />
+    <ClCompile Include="Exercise2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Exercise3.cpp" />
     <ClCompile Include="Login_Func.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Banking.h" />
+    <ClInclude Include="Customer.h" />
     <ClInclude Include="Login_Func.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
