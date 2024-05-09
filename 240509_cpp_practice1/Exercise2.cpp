@@ -16,4 +16,6 @@ int main()
 	cin >> rec.width >> rec.height;
 
 	cout << "³ÐÀÌ´Â.. " << rec.width * rec.height << endl;
+
+	return 0;
 }
